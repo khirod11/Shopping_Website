@@ -1,0 +1,199 @@
+{
+  "account": [
+    {
+      "name": "Seller One",
+      "mobile": "8888888888",
+      "email": "seller1@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Seller Two",
+      "mobile": "9999999999",
+      "email": "seller2@gmail.com",
+      "password": "123",
+      "id": 2
+    }
+  ],
+  "product": [
+    {
+      "name": "Apple-Seller 1",
+      "price": "100",
+      "photo": "1.jpg",
+      "details": "This product belongs to Seller One",
+      "seller": "1",
+      "id": 1
+    },
+    {
+      "name": "Mango - Seller 1",
+      "price": "50",
+      "photo": "2.jpg",
+      "details": "This product belongs to Seller One",
+      "seller": "1",
+      "id": 2
+    },
+    {
+      "name": "Banana - Seller 1",
+      "price": "50",
+      "photo": "3.jpg",
+      "details": "This product belongs to Seller One",
+      "seller": "1",
+      "id": 3
+    },
+    {
+      "name": "Printer - Seller 2",
+      "price": "1000",
+      "photo": "1.jpg",
+      "details": "This product belongs to Seller Two",
+      "seller": "2",
+      "id": 4
+    },
+    {
+      "name": "Scanner - Seller 2",
+      "price": "3000",
+      "photo": "2.jpg",
+      "details": "This product belongs to Seller Two",
+      "seller": "2",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "name": "Printer - Seller 2",
+      "price": "1000",
+      "photo": "1.jpg",
+      "details": "This product belongs to Seller Two",
+      "seller": "2",
+      "id": 4,
+      "qty": 1
+    },
+    {
+      "name": "Mango - Seller 1",
+      "price": "50",
+      "photo": "2.jpg",
+      "details": "This product belongs to Seller One",
+      "seller": "1",
+      "id": 2,
+      "qty": 1
+    }
+  ],
+  "order": [
+    {
+      "fullname": "Khirod",
+      "email": "khirod.nyk11@gmail.com",
+      "mobile": "9778415389",
+      "address": "Marathahalli, Bangalore",
+      "itemlist": [
+        {
+          "name": "Scanner - Seller 2",
+          "price": "3000",
+          "photo": "2.jpg",
+          "details": "This product belongs to Seller Two",
+          "seller": "2",
+          "id": 5,
+          "qty": 1
+        },
+        {
+          "name": "Banana - Seller 1",
+          "price": "50",
+          "photo": "3.jpg",
+          "details": "This product belongs to Seller One",
+          "seller": "1",
+          "id": 3,
+          "qty": 1
+        },
+        {
+          "name": "Apple-Seller 1",
+          "price": "100",
+          "photo": "1.jpg",
+          "details": "This product belongs to Seller One",
+          "seller": "1",
+          "id": 1,
+          "qty": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "fullname": "Sanjay",
+      "email": "sanjay@12gmail.com",
+      "mobile": "987654321",
+      "address": "Rourkela,Odisha",
+      "itemlist": [
+        {
+          "name": "Mango - Seller 1",
+          "price": "50",
+          "photo": "2.jpg",
+          "details": "This product belongs to Seller One",
+          "seller": "1",
+          "id": 2,
+          "qty": 1
+        },
+        {
+          "name": "Printer - Seller 2",
+          "price": "1000",
+          "photo": "1.jpg",
+          "details": "This product belongs to Seller Two",
+          "seller": "2",
+          "id": 4,
+          "qty": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "fullname": "Khirod",
+      "email": "khirod.nyk11@gmail.com",
+      "mobile": "9778415389",
+      "address": "Bhubaneswar",
+      "itemlist": [
+        {
+          "name": "Mango - Seller 1",
+          "price": "50",
+          "photo": "2.jpg",
+          "details": "This product belongs to Seller One",
+          "seller": "1",
+          "id": 2,
+          "qty": 1
+        },
+        {
+          "name": "Printer - Seller 2",
+          "price": "1000",
+          "photo": "1.jpg",
+          "details": "This product belongs to Seller Two",
+          "seller": "2",
+          "id": 4,
+          "qty": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "fullname": "Khirod",
+      "email": "k@gmail.com",
+      "mobile": "9778415389",
+      "address": "Marathahalli",
+      "itemlist": [
+        {
+          "name": "Mango - Seller 1",
+          "price": "50",
+          "photo": "2.jpg",
+          "details": "This product belongs to Seller One",
+          "seller": "1",
+          "id": 2,
+          "qty": 1
+        },
+        {
+          "name": "Printer - Seller 2",
+          "price": "1000",
+          "photo": "1.jpg",
+          "details": "This product belongs to Seller Two",
+          "seller": "2",
+          "id": 4,
+          "qty": 1
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
